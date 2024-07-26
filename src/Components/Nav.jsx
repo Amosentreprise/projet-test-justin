@@ -1,9 +1,9 @@
 
 const Nav = () => {
     return ( 
-        <div>
-            Nav
-        </div>
+        <nav className=" p-4 min-h-20 bg-white w-[80%] mx-auto rounded-md">
+
+        </nav>
      );
 }
  
