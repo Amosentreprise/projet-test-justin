@@ -1,7 +1,7 @@
 const Footer = () => {
     return ( 
-        <footer className="bg-gradient-to-r from-[#FFF6F2] to-[#EEC1AC]  ">
-            <div className="divide-y divide-primary  w-[80%] mx-auto">
+        <footer className=" bg-white">
+            {/* <div className="divide-y divide-primary  w-[80%] mx-auto">
                     <div className=" min-h-24">
 
                     </div>
@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className=" min-h-24">
 
                     </div>
-            </div>
+            </div> */}
           
             
         </footer>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import icon from"../assets/iconLogo.png"
-
+import { useState } from 'react'
 const Nav = () => {
     const liens = [
         {
@@ -10,18 +10,18 @@ const Nav = () => {
         },
         {
             id:1,
-            link:"/",
+            link:"/about",
             linkName:"About",
         },
         {
             id:2,
-            link:"/",
+            link:"/property",
             linkName:"Proprieties",
         },
         {
             id:3,
-            link:"/",
-            linkName:"Pages",
+            link:"/propertySingle",
+            linkName:"PropertySingle",
         },
         {
             id:4,
@@ -29,6 +29,10 @@ const Nav = () => {
             linkName:"Blog",
         },
     ]
+    const [selectedOption, setSelected] = useState( parseInt(localStorage.getItem("option")) || 0);
+    const handleClick = (id)=>{
+        setSelected(id)
+    }
     return ( 
         <nav className=" p-4 min-h-20 bg-white w-[80%] mx-auto rounded-md flex justify-between items-center">
            <div className=" flex gap-2 items-end">
@@ -39,7 +43,7 @@ const Nav = () => {
                 {
                     liens.map((lien)=>{
                         return (
-                            <li key={lien.id} className=""><Link to={lien.link}>{lien.linkName}</Link></li>
+                            <li key={lien.id} className={`p-[6px] hover:bg-slate-100 hover:rounded-full font-bold ${lien.id === selectedOption ? " text-accent" : "text-black"}`} onClick={()=>handleClick(lien.id)}><Link to={lien.link}>{lien.linkName}</Link></li>
                         )
                     })
                 }

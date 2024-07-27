@@ -1,8 +1,9 @@
+import Banner from "./PSsections/Banner";
 
 const PropertySingle = () => {
     return ( 
         <div>
-            Property Single
+            <Banner/>
         </div>
      );
 }

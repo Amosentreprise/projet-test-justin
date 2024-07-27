@@ -1,7 +1,9 @@
+import Banner from "./PropertySections/Banner";
+
 const Property = () => {
     return ( 
         <div>
-            Property
+            <Banner/>
         </div>
      );
 }
