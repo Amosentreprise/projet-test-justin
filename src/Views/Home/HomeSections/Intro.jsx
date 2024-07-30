@@ -20,7 +20,7 @@ const Intro = () => {
             <div className="flex flex-wrap gap-3 py-5 w-[80%] mx-auto">
                     <div className="w-[75%] min-h-52 bg-secondary p-3 flex flex-col space-y-3">
                         <h2 className="text-accent font-source">| <span className=" text-accent-orange">01 </span>PROPERLAND INTRO |</h2>
-                        <p className="text-3xl font-bold font-kufam text-accent w-[80%]">Buying & Selling Property
+                        <p className="text-3xl font-bold font-open text-accent w-[80%]">Buying & Selling Property
                         In An Easy Way</p>
                         <p className="text-amber-700">Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
                         <ul className=" flex gap-2">

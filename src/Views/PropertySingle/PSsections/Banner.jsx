@@ -3,7 +3,7 @@ import ps from "../../../assets/propertySingle.png"
 
 const Banner = () => {
     return ( 
-        <div className="min-h-screen bg-gradient-to-r from-[#FFF6F2] overflow-hidden to-[#EEC1AC] w-full py-4 font-kufam flex relative " >
+        <div className="min-h-[calc(100vh-6rem)] overflow-hidden w-full py-4 font-open flex relative " >
             <img src={ps} alt="" className=" absolute inset-0" />
            
           

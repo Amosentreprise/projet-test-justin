@@ -3,7 +3,9 @@ import { FaDollarSign } from "react-icons/fa6";
 import { FaHandshake } from "react-icons/fa";
 import { FaHandHolding } from "react-icons/fa";
 import { FiUser } from "react-icons/fi";
-import { BsTelephoneFill } from "react-icons/bs";
+import { BsTelephone } from "react-icons/bs";
+import Customers from "../../Common/Customers";
+import Statistics from "../../Common/Statistics";
 
 const Services = () => {
     const services = [
@@ -34,12 +36,12 @@ const Services = () => {
         {
             id:4,
             title:"Member support",
-            icon:BsTelephoneFill,
+            icon:BsTelephone,
             contenu:"Leverage agile frameworks to provide a robust synopsis for high level overviews. lverall value proposition Organically grow holistic ."
         },
     ]
     return ( 
-        <div className=" min-h-screen bg-white font-kufam">
+        <div className=" min-h-screen bg-white  font-open">
             <div className=" space-y-5">
                  <h3 className="text-accent font-source text-center uppercase">| <span className=" text-accent-orange">05 </span> services |</h3>
                  <h2 className=" text-2xl text-accent text-center font-bold max-w-[400px] mx-auto">See How Can Help</h2>
@@ -64,6 +66,14 @@ const Services = () => {
                 }
                 
             </div>
+
+            <Customers/>
+
+            <div className=" w-[80%] mx-auto">
+                <Statistics/>
+
+            </div>
+            <hr className=" w-[80%] mx-auto" />
             
         </div>
      );

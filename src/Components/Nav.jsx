@@ -39,7 +39,7 @@ const Nav = () => {
                 <img src={icon} alt="" className="w-10 h-10"/>
                 <span className=" font-inter text-accent font-bold text-xl ">ProperLand</span>
            </div>
-           <ul className=" flex gap-5 items-center font-kufam">
+           <ul className=" flex gap-5 items-center font-open">
                 {
                     liens.map((lien)=>{
                         return (

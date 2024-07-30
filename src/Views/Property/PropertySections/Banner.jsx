@@ -6,7 +6,7 @@ import { IoIosHome } from "react-icons/io";
 import { AiOutlineArrowRight } from "react-icons/ai";
 const Banner = () => {
     return ( 
-        <div className="min-h-[100vh - 8rem] bg-gradient-to-r from-[#FFF6F2] overflow-hidden to-[#EEC1AC] w-full pt-4 font-kufam relative ">
+        <div className="min-h-[100vh - 8rem] bg-gradient-to-r from-[#FFF6F2] overflow-hidden to-[#EEC1AC] w-full pt-4 font-open relative ">
             <img src={icon1} alt="" className=" absolute z-30 w-[500px] h-[500px] -bottom-12 left-0" />
             <img src={icon2} alt="" className=" absolute z-30 top-2 right-0 w-[500px] h-[500px]" />
             

@@ -19,6 +19,7 @@ export default {
 				  kufam: ["Kufam", "sans-serif"],
 				  source: ["Source Sans 3", "sans-serif"],
 				  inter: ["Inter", "sans-serif"],
+				  open: ["Open Sans", "sans-serif"],
 			  },
 			  screens: {
         

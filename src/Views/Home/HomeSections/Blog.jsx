@@ -22,7 +22,7 @@ const Blog = () => {
         },
     ]
     return ( 
-        <div  className=" min-h-screen bg-gradient-to-l from-[#ECD9CF] to-[#FFF0E900] font-kufam flex justify-center items-center p-10 relative overflow-hidden">
+        <div  className=" min-h-screen bg-gradient-to-l from-[#ECD9CF] to-[#FFF0E900] font-open flex justify-center items-center p-10 relative overflow-hidden">
             <img src={icon1} alt="" className=" absolute top-0 left-0 z-30 w-[300px] h-[300px]" />
             <img src={icon2} alt="" className=" absolute top-10 -right-32 z-30 w-[300px] h-[500px]" />
 

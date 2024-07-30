@@ -15,7 +15,7 @@ const Footer = () => {
     return ( 
         <footer className=" bg-white min-h-[400px] relative overflow-hidden font-source">
             <img src={icon1} alt="" className=" absolute z-30 w-[300px] h-[300px] -bottom-10 left-0" />
-            <img src={icon2} alt="" className=" absolute z-30 top-2 -right-[300px] w-[500px] h-[500px] object-cover" />
+            <img src={icon2} alt="" className=" absolute z-30 top-8 -right-[100px] w-[200px] h-[400px] object-cover" />
              <div className="divide-y divide-primary  w-[90%] mx-auto border-t">
                     <div className="flex divide-x justify-between  relative z-40" >
                         <div className=" flex flex-col space-y-3 my-auto" >
@@ -47,7 +47,7 @@ const Footer = () => {
 
                     </div>
                     <div className=" flex divide-x-2 justify-between px-4  relative z-40">
-                        <div className=" flex gap-20 ">
+                        <div className=" flex flex-wrap gap-20 ">
                               <div>
                                   <h2 className=" text-xl font-bold text-accent">Company</h2>
                                   <ul>
