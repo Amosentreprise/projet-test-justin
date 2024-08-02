@@ -86,7 +86,7 @@ const Customers = () => {
   return (
     <div className="min-h-screen bg-[#F3E8E2] p-14 flex items-center justify-center">
       <div className="w-full max-w-6xl">
-        <div className="flex justify-between items-center mb-5">
+        <div className="flex justify-between flex-wrap items-center mb-5">
           <h2 className="text-3xl font-bold font-open text-accent">What our Customers say about us</h2>
           <div className="flex gap-3">
             <button
