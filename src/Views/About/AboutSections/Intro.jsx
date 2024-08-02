@@ -24,9 +24,9 @@ const Intro = () => {
         },
     ]
     return ( 
-        <section className="  p-10 bg-stone-100 space-y-5">
-        <div className=" w-[80%] mx-auto flex flex-wrap justify-between">
-            <div>
+        <section className="  p-10 bg-primary space-y-5">
+        <div className=" w-[80%] mx-auto flex flex-wrap sm:justify-center md:justify-center lg:justify-between">
+            <div className="sm:hidden md:hidden lg:block">
                <img src={intro} alt="" className=" h-[500px] w-full object-cover" />
             </div>
             <div className=" space-y-3">
@@ -60,17 +60,17 @@ const Intro = () => {
             </div>
             
         </div>
-         <hr className=" w-[80%] mx-auto my-5 h-[2px]  bg-slate-300" />
+         <hr className="sm:hidden md:hidden lg:block w-[80%] mx-auto my-5 h-[2px]  bg-slate-300" />
 
          <div className=" min-h-[400px] space-y-4">
             <h3 className="text-accent text-xl font-source uppercase text-center tracking-wider">| <span className=" text-accent-orange">02 </span> PROCESS |</h3>
             <h2 className=" text-2xl text-accent font-bold text-center">Our Main Focus</h2>
 
-            <div className=" w-[80%] mx-auto flex flex-wrap justify-center gap-5">
+            <div className="md:w-full sm:w-[90%] lg:w-[80%] mx-auto flex flex-wrap justify-center gap-5">
                 {
                     process.map((process)=> {
                         return(
-                            <div key={process.id} className=" p-6 w-[300px] h-auto bg-gradient-to-b from-[#FFF6F2] overflow-hidden to-[#EEC1AC] flex flex-col space-y-2">
+                            <div key={process.id} className=" p-6 w-[250px] h-auto bg-gradient-to-b from-[#FFF6F2] overflow-hidden to-[#EEC1AC] flex flex-col space-y-2">
                                 <div className=" w-14 h-14  p-2 rounded-full bg-accent-orange flex">
                                     <span className=" m-auto text-2xl text-white font-bold ">{process.processNum}</span>
                                 </div>

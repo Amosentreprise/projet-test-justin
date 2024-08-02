@@ -4,11 +4,12 @@ export default {
   theme: {
     extend: {
       colors:{
-				primary:"#D9D9D9",
+				primary:"#f1f5f9",
 				secondary:"#F2F2F2",
 				accent: {
 				DEFAULT: '#3B3A5D', 
 				orange: '#FFBB50', 
+				neutral:"#575756"
 				
 				},
       
@@ -23,9 +24,9 @@ export default {
 			  },
 			  screens: {
         
-        sm:"200px",
+               sm:"200px",
 				//320px
-				md: "764px",
+				md: "646px",
 				// => @media (min-width: 768px) { ... }
 
 				lg: "1024px",

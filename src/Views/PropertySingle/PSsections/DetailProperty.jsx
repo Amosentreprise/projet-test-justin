@@ -1,6 +1,7 @@
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaBath, FaParking, FaBed, FaRuler   } from "react-icons/fa";
 import { GoDotFill } from "react-icons/go";
+import person from "../../../assets/teams/team4.png"
 const DetailProperty = () => {
     return ( 
         <div className=" min-h-screen text-zinc-500">
@@ -43,16 +44,22 @@ const DetailProperty = () => {
                     
                 </div>
 
-                <div className="w-[300px] h-auto bg-primary p-5">
+                <div className="w-[300px] h-[400px] bg-primary p-5 space-y-6">
+                   <h2 className="text-2xl text-accent font-bold">About About</h2>
+                   <p>A perfect property finder and seller with great knowledge in the real estate field. Talented in searching for a property with in the customer's needed areas.</p>
+                   <div className="flex gap-3">
+                      <img src={person} className="w-20 h-20 object-cover"/>
 
+                      <p className="flex flex-col space-y-3"><small className=" text-accent font-bold">Anne Hathaway</small> <small className="text-amber-700">Land Seller</small></p>
+                   </div>
                 </div>
 
            </div>
 
            <div className=" w-[80%] mx-auto flex flex-wrap justify-between py-9">
              <div className=" max-w-[500px] space-y-6">
-                 <div className=" w-full min-h-32 bg-accent p-5 flex">
-                    <p className="mx-auto"></p>
+                 <div className=" w-full min-h-32 bg-accent text-white p-5 flex">
+                    <p className="mx-auto"> Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. </p>
                  </div>
                        <h2 className=" text-2xl text-accent font-bold">Make real time a build services</h2>
 
@@ -67,7 +74,14 @@ const DetailProperty = () => {
                         <p>It is a long established fact that a reader will be distracted by the readable content page when looking at its layout. The point of using Lorem Ipsum is that it more-or-less normal distribution of letters, as felt opposed to using 'Content here making it look like readable.</p>
              </div>
 
-              <div className="w-[300px] h-auto bg-primary p-5">
+              <div className="w-[300px] h-[400px] bg-primary p-5 flex flex-col space-y-5">
+
+                <input type="text" placeholder="Name" className="block p-2 border"/>
+                <input type="text" placeholder="Email" className="block p-2 border"/>
+                <input type="text" placeholder="Phone" className="block p-2 border"/>
+                
+                <textarea className="resize-none" placeholder="Message"></textarea>
+                <button className="bg-accent p-4 text-white hover:shadow-md">Submit</button>
 
               </div>
 

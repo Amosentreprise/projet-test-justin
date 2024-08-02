@@ -2,9 +2,9 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaBath, FaParking, FaBed, FaRuler   } from "react-icons/fa";
 const PropertyCard = ({imageCard, color="bg-white"}) => {
     return ( 
-        <div className={`sm:w-[80%] md:w-[40%] lg:w-[40%] h-auto flex flex-col space-y-3 p-5   ${color}`}>
+        <div className={`sm:w-[90%] md:w-[80%] lg:w-[45%] h-auto flex flex-col space-y-3 p-5   ${color}`}>
             <img src={imageCard} alt="" className="w-full h-[200px] object-cover" />
-            <div className=" flex justify-between items-center font-open">
+            <div className=" flex justify-between flex-wrap items-center font-open">
                 <span className=" text-accent-orange text-2xl font-bold">300/MO</span>
                 <button className=" text-xl text-accent bg-accent-orange p-1 rounded-md">For sale</button>
             </div>

@@ -41,10 +41,10 @@ const Experts = () => {
             <h3 className="text-accent text-xl font-source uppercase text-center tracking-wider">| <span className=" text-accent-orange">06 </span> EXPERTS |</h3>
             <h2 className=" text-2xl text-accent font-bold text-center">Our Property Team</h2>
 
-           <div className=" flex gap-5">
+           <div className="w-full flex flex-wrap justify-center gap-5">
               {
                 experts.map((expert)=>(
-                    <div>
+                    <div className="w-[250px] hover:shadow-lg">
                     <div>
                         <img src={expert.photo} alt="" />
                     </div>

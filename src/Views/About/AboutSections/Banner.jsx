@@ -7,33 +7,34 @@ import { IoIosHome } from "react-icons/io";
 const Banner = () => {
     
     return ( 
-        <div className="min-h-[calc(100vh-8rem)] bg-gradient-to-r from-[#FFF6F2] overflow-hidden to-[#EEC1AC] w-full pt-4 font-kufam relative ">
-            <img src={icon1} alt="" className=" absolute z-30 w-[500px] h-[500px] -bottom-12 left-0" />
-            <img src={icon2} alt="" className=" absolute z-30 top-2 right-0 w-[500px] h-[500px]" />
-            
-            <div className=" relative z-40">
-                <Nav/>
-            </div> 
-            <div className=" m-auto flex flex-col gap-3 z-40">
-                <div>
-                   
-                </div>
-                <div className="flex justify-between items-center gap-3 w-[80%] mx-auto relative">
-                    <div className="w-[45%]">
-                        <div className="space-y-4">
-                          <span className="bg-gradient-to-r from-[#F3D1C1] to-[#FFB28D] p-[2px] text-amber-700 text-[16px] flex items-center  max-w-60 gap-3 uppercase tracking-wide"><span><IoIosHome/></span><span>ABOUT PROPERLAND</span></span>
+        
+         <div className="min-h-[calc(100vh-9rem)] bg-white overflow-hidden w-full pt-4 font-open relative flex flex-col ">
+         <img src={icon1} alt="" className=" absolute z-30 sm:w-[200px] md:w-[400px] lg:w-[500px] sm:h-[300px] md:h-[400px] lg:h-[500px] -bottom-10 left-0" />
+         <img src={icon2} alt="" className=" absolute z-30 -top-10 -right-40 sm:w-[300px] md:w-[400px] lg:w-[400px] sm:h-[300px] md:h-[400px] lg:h-[500px]" />
+         
+         <div className="relative z-50">
+             <Nav/>
+         </div> 
+         <div className=" my-auto flex flex-col gap-3 z-40">
+             <div>
                 
+             </div>
+             <div className="flex justify-between items-center gap-3 w-[80%] mx-auto relative">
+                 <div className="lg:w-[45%] md:w-[80%] sm:w-[80%]">
+                     <div className="space-y-4">
+                       <span className=" p-[2px] text-amber-700 text-[16px] flex items-center  gap-3 uppercase tracking-wide"><span><IoIosHome/></span><span>ABOUT PROPERLAND</span></span>
+             
 
-                           <h1 className=" text-4xl text-accent font-bold tracking-wider ">About Our Real Estate</h1> 
-                        </div>
-                    </div>
-                    <div className=" relative -right-40">
-                        <img src={about} alt=""  className=" w-[600px]"/>
-                    </div>
-                </div>
-            </div>
-                        
-        </div>
+                        <h1 className=" text-4xl text-accent font-bold tracking-wider ">About Our Real Estate</h1> 
+                     </div>
+                 </div>
+                 <div className="sm:hidden md:hidden lg:block relative -right-40 z-40">
+                     <img src={about} alt=""  className=" w-[600px]"/>
+                 </div>
+             </div>
+         </div>
+                     
+     </div>
      );
 }
  

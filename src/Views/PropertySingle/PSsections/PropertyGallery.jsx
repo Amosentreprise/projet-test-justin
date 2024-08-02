@@ -9,7 +9,7 @@ const PropertyGallery = () => {
                 <div className="  flex  justify-between">
                     {
                         galeries.map((galerie)=>(
-                            <div className="w-[30%]" key={galerie.id}>
+                            <div className="w-[30%] transition-all hover:scale-105" key={galerie.id}>
                                 <img src={galerie.image} alt="" className="w-full" />
                             </div>
                         ))

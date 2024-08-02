@@ -22,7 +22,7 @@ const Blog = () => {
         },
     ]
     return ( 
-        <div  className=" min-h-screen bg-gradient-to-l from-[#ECD9CF] to-[#FFF0E900] font-open flex justify-center items-center p-10 relative overflow-hidden">
+        <div  className=" min-h-screen bg-primary font-open flex justify-center items-center p-10 relative overflow-hidden">
             <img src={icon1} alt="" className=" absolute top-0 left-0 z-30 w-[300px] h-[300px]" />
             <img src={icon2} alt="" className=" absolute top-10 -right-32 z-30 w-[300px] h-[500px]" />
 
@@ -46,7 +46,7 @@ const Blog = () => {
                     })
                    }
                 </div>
-                <button className="mx-auto bg-white rounded-md flex items-center p-3 gap-2"><span className=" text-sm text-accent">See All Articles</span> <span className=" text-white w-4 h-4 rounded-full bg-accent flex items-center justify-center"><AiOutlineArrowRight/></span></button>
+                <button className="mx-auto bg-white rounded-md hover:shadow-md flex items-center p-3 gap-2"><span className=" text-sm text-accent">See All Articles</span> <span className=" text-white w-4 h-4 rounded-full bg-accent flex items-center justify-center"><AiOutlineArrowRight/></span></button>
                
 
             </div>

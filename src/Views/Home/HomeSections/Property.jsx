@@ -9,7 +9,7 @@ const Property = () => {
             <h3 className="text-accent font-source text-center uppercase tracking-wider">| <span className=" text-accent-orange">02 </span> Featured properties |</h3>
             <h2 className=" text-accent font-open text-2xl font-bold text-center">Properties for sale in your favorite area</h2>
 
-              <div className="w-[80%] pt-9 pb-24 flex flex-wrap justify-center gap-10 mx-auto relative z-40">
+              <div className="sm:w-[90%] md:w-[80%] lg:w-[80%] pt-9 pb-24 flex flex-wrap justify-center gap-10 mx-auto relative z-40">
                   {
                     datas.map((data)=>{
                         return(

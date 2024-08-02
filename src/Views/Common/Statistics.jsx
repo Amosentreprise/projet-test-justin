@@ -25,10 +25,10 @@ const Statistics = () => {
     ]
     return ( 
         <div className=" w-full min-h-24 py-7">
-            <ul className=" flex justify-between">
+            <ul className=" flex justify-between gap-3 flex-wrap">
                 {
                    statitics.map((data)=>(
-                     <li key={data.id} className=" flex flex-col items-center space-y-2"><span className=" text-2xl font-bold text-accent">{data.value}</span><span className=" text-amber-700">{data.label}</span></li>
+                     <li key={data.id} className=" flex flex-col items-center justify-center space-y-2"><span className=" sm:text-sm md:text-xl lg:text-2xl font-bold text-accent">{data.value}</span><span className=" text-center text-amber-700 sm:text-sm md:text-xl lg:text-xl">{data.label}</span></li>
                    ))  
                 }
                 
