@@ -52,7 +52,6 @@ const Footer = () => {
                                   <h2 className=" text-xl font-bold text-accent">Company</h2>
                                   <ul>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/about">About</Link></li>
-                                     <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Blog</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/property">Properties</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Agents</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Services</Link></li>
@@ -64,11 +63,10 @@ const Footer = () => {
                                   <h2 className=" text-xl font-bold text-accent">Services</h2>
                                   <ul>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/about">About</Link></li>
-                                     <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Blog</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/property">Properties</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Agents</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Services</Link></li>
-                                     <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Contact us</Link></li>
+                                     <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Sign up</Link></li>
                                      
                                   </ul>
                               </div>
@@ -76,11 +74,10 @@ const Footer = () => {
                                   <h2 className=" text-xl font-bold text-accent">Uitility pages</h2>
                                   <ul>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/about">About</Link></li>
-                                     <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Blog</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/property">Properties</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Agents</Link></li>
                                      <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Services</Link></li>
-                                     <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Contact us</Link></li>
+                                     <li className="text-amber-700 hover:text-accent-orange"><Link to="/">Sign up</Link></li>
                                      
                                   </ul>
                               </div>
@@ -99,7 +96,7 @@ const Footer = () => {
 
                     </div>
                     <p className="  text-center p-4 font-source">
-                        Copyright © Properland | Designed by <span className=" text-accent">VictorFlow</span>  - Powered by Webflow.
+                        Copyright © Properland | Developped by <a href="https://amosfenousossoukpe.surge.sh/" target="_blank" className=" text-accent font-bold">Amos Fènou SOSSOUKPE</a>  - Powered by Webflow.
                     </p>
             </div> 
           

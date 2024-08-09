@@ -16,9 +16,9 @@ const Intro = () => {
         },
     ]
     return ( 
-        <div className=" min-h-[350px] bg-white  p-3">
-            <div className="flex justify-center flex-wrap gap-3 py-5 w-[90%] mx-auto">
-                    <div className="sm:w-[80%] md:w-[60%] lg:w-[75%] min-h-52 bg-secondary p-3 flex flex-col space-y-3">
+        <div className=" min-h-[350px] bg-white  p-3 ">
+            <div className="flex justify-center flex-wrap gap-3 py-5 w-[90%] mx-auto" data-aos="fade-up" data-aos-duration="2000">
+                    <div className="sm:w-[90%] md:w-[60%] lg:w-[75%] min-h-52 bg-secondary p-3 flex flex-col space-y-3">
                         <h2 className="text-accent font-source">| <span className=" text-accent-orange">01 </span>PROPERLAND INTRO |</h2>
                         <p className="text-3xl font-bold font-open text-accent w-[80%]">Buying & Selling Property
                         In An Easy Way</p>
@@ -35,7 +35,7 @@ const Intro = () => {
                             
                         </ul>
                     </div>
-                    <div className=" sm:w-[80%] md:w-[35%] lg:w-[20%]  relative">
+                    <div className=" sm:w-[90%] md:w-[35%] lg:w-[20%]  relative">
                         <img src={photo} alt="" className=" w-full h-full" />
                         <div className="absolute inset-0 flex">
                              <span className="w-16 h-16 bg-white rounded-full m-auto shadow-lg flex justify-center items-center cursor-pointer">

@@ -44,7 +44,7 @@ const Experts = () => {
            <div className="w-full flex flex-wrap justify-center gap-5">
               {
                 experts.map((expert)=>(
-                    <div className="w-[250px] hover:shadow-lg">
+                    <div className="w-[250px] hover:shadow-lg" key={expert.id}>
                     <div>
                         <img src={expert.photo} alt="" />
                     </div>

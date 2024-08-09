@@ -18,7 +18,7 @@ const PropertyCard = ({imageCard, color="bg-white"}) => {
                  <li className=" flex items-center gap-2 text-accent border p-3"><span><FaParking/></span> | <span className=" text-sm">1 parking</span></li>
                  <li className=" flex items-center gap-2 text-accent border p-3"><span><FaRuler/></span> | <span className=" text-sm">120sqft</span></li>
                  
-              </ul>
+            </ul>
 
         </div>
      );

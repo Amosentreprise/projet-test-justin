@@ -29,7 +29,7 @@ const DetailProperty = () => {
             
             <hr className=" my-3 h-1 w-[80%] mx-auto"/>
 
-           <div className=" w-[80%] mx-auto flex flex-wrap justify-between py-9">
+           <div className=" w-[80%] mx-auto flex flex-wrap gap-8 justify-between py-9">
                 <div className=" space-y-5 max-w-[500px]">
                         <h2 className=" text-2xl text-accent font-bold">About the property</h2>
                         <p>Laminate flooring is a more affordable option in place of hardwood flooring that can cost almost ten times the cost of laminate flooring. Laminate flooring is light, durable and can be made to resemble.</p>
@@ -44,7 +44,7 @@ const DetailProperty = () => {
                     
                 </div>
 
-                <div className="w-[300px] h-[400px] bg-primary p-5 space-y-6">
+                <div className="w-[300px] h-[360px] bg-primary p-5 space-y-6">
                    <h2 className="text-2xl text-accent font-bold">About About</h2>
                    <p>A perfect property finder and seller with great knowledge in the real estate field. Talented in searching for a property with in the customer's needed areas.</p>
                    <div className="flex gap-3">
@@ -56,7 +56,7 @@ const DetailProperty = () => {
 
            </div>
 
-           <div className=" w-[80%] mx-auto flex flex-wrap justify-between py-9">
+           <div className=" w-[80%] mx-auto flex flex-wrap gap-8 justify-between py-9">
              <div className=" max-w-[500px] space-y-6">
                  <div className=" w-full min-h-32 bg-accent text-white p-5 flex">
                     <p className="mx-auto"> Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. </p>
@@ -74,7 +74,7 @@ const DetailProperty = () => {
                         <p>It is a long established fact that a reader will be distracted by the readable content page when looking at its layout. The point of using Lorem Ipsum is that it more-or-less normal distribution of letters, as felt opposed to using 'Content here making it look like readable.</p>
              </div>
 
-              <div className="w-[300px] h-[400px] bg-primary p-5 flex flex-col space-y-5">
+              <div className="w-[300px] h-[360px] bg-primary p-5 flex flex-col space-y-5">
 
                 <input type="text" placeholder="Name" className="block p-2 border"/>
                 <input type="text" placeholder="Email" className="block p-2 border"/>

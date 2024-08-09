@@ -7,7 +7,7 @@ const ListNeighborhoods = () => {
                     {
                         datas.map((data)=>{
                             return(
-                                <div key={data.id} className=" w-[200px] h-[250px] relative hover:shadow-lg">
+                                <div key={data.id} className=" w-[200px] h-[250px] relative hover:scale-105 transition-all">
                                     <img src={data.image} alt="" className="h-full w-full object-cover" />
                                     <div className=" bg-black bg-opacity-50 absolute inset-0">
                                         <div className=" h-full flex flex-col justify-between p-2">

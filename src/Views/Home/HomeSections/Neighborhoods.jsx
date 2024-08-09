@@ -9,7 +9,7 @@ const Neighborhood = () => {
             <h2 className="text-accent font-source text-center uppercase">| <span className=" text-accent-orange">06 </span>NeighborhoodS |</h2>
             <p className=" text-2xl text-accent text-center font-bold">Discover The Neighborhoods</p>
             
-            <div className=" w-[90%] md:w-[90%] lg:w-[80%] mx-auto">
+            <div className=" w-[90%] md:w-[90%] lg:w-[80%] mx-auto" >
                 <ListNeighborhoods/>
             </div>
 
