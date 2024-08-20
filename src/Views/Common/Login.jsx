@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 import Loader from "../../Components/Loader";
-import ParticleBackground from "../../Components/ParticleBackground";
+
 import { FaRegEye } from "react-icons/fa"; //eye
 import { FaRegEyeSlash } from "react-icons/fa";
 
