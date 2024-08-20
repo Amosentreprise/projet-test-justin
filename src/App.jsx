@@ -4,6 +4,7 @@ import Home from './Views/Home/Home'
 import Property from './Views/Property/Property'
 import PropertySingle from './Views/PropertySingle/PropertySingle'
 import About from './Views/About/About'
+import Login from "./Views/Common/Login.jsx"
 
 
 
@@ -17,6 +18,7 @@ function App() {
            <Route path="/property" element={<Property/>}/>
            <Route path="/propertySingle" element={<PropertySingle/>}/>
            <Route path="/about" element={<About/>}/>
+           <Route path="/login" element={<Login/>}/>
         </Routes>
     </div>
     

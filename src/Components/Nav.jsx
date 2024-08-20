@@ -28,7 +28,7 @@ const Nav = () => {
         },
         {
             id: 4,
-            link: "/",
+            link: "/login",
             linkName: "Sign in",
         },
     ];
