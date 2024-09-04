@@ -8,7 +8,7 @@ export default {
 				secondary:"#F2F2F2",
 				accent: {
 				DEFAULT: '#3B3A5D', 
-				orange: '#FFBB50', 
+				orange: '#f4952c', 
 				neutral:"#575756"
 				
 				},

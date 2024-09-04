@@ -4,7 +4,7 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import ParticlesComponent from "../../Components/ParticleBackground";
 import Loader from "../../Components/Loader";
 
 import { FaRegEye } from "react-icons/fa"; //eye
@@ -12,7 +12,6 @@ import { FaRegEyeSlash } from "react-icons/fa";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-
 
 const Login = () => {
   const navigate = useNavigate();
@@ -66,7 +65,7 @@ const Login = () => {
   return (
     <div className="h-screen w-full flex justify-center items-center bg-white  relative overflow-hidden font-monteserat">
       <ToastContainer />
-      {/* <ParticleBackground /> */}
+      <ParticlesComponent/>
       <Loader visible={loader} />
       <div className="flex  bg-primary rounded-xl shadow-sm p-7 h-auto">
         <div className="m-auto ">

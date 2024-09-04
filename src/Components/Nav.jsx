@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import icon from "../assets/iconLogo.png";
+import icon from "../assets/iconLogo2.png";
 import { useState, useEffect } from "react";
 import { IoMdMenu } from "react-icons/io";
 import { MdClose } from "react-icons/md";
@@ -53,10 +53,10 @@ const Nav = () => {
 
     return (
         <nav className="p-4 min-h-20 bg-accent-neutral w-[80%] mx-auto rounded-md flex justify-between items-center relative">
-            <div className="flex gap-2 items-end">
-                <img src={icon} alt="" className="w-10 h-10" />
+            <div className="flex gap-2 items-center">
+                <img src={icon} alt="" className="w-16 h-10 object-cover" />
                 <span className="font-inter text-white font-bold lg:text-xl md:text-xl sm:text-sm">
-                    ProperLand
+                    Pas2com
                 </span>
             </div>
             <ul className="lg:flex gap-5 items-center font-open sm:hidden md:hidden">
