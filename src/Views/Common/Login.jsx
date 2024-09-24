@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ParticlesComponent from "../../Components/ParticleBackground";
 import Loader from "../../Components/Loader";
+import logo from "../../assets/logooriginal.png"
 
 import { FaRegEye } from "react-icons/fa"; //eye
 import { FaRegEyeSlash } from "react-icons/fa";
@@ -73,6 +74,7 @@ const Login = () => {
             onSubmit={handleSubmit}
             className="sm:w-[250px] md:w-[500px] lg:w-[500px] m-auto h-auto flex flex-col "
           >
+           <a href="/" onClick={()=> localStorage.setItem('selectedOption', 0)}><img src={logo} alt="" className="w-32 h-20 object-cover mx-auto" /></a> 
             <h1 className="text-accent font-semibold py-4 text-xl md:text-2xl text-center">
               Se connecter
             </h1>

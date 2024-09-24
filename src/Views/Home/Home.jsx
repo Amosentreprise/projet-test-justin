@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Footer from "../../Components/Footer";
 import About from "./HomeSections/About";
 import Banner from "./HomeSections/Banner";
@@ -8,6 +9,7 @@ import Property from "./HomeSections/Property";
 import Services from "./HomeSections/Services";
 
 const Home = () => {
+   
     return ( 
         <div >
             <Banner/>

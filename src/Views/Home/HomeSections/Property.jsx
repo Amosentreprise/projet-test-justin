@@ -22,7 +22,7 @@ const Property = () => {
              
             </div>
 
-            <div className="w-[300px] p-20 rounded-t-full bg-[#EEC1AC] absolute bottom-0 left-1/2 transform -translate-x-1/2 z-30 flex justify-center items-center">
+            <div className="w-[300px] p-20 rounded-t-full bg-accent absolute bottom-0 left-1/2 transform -translate-x-1/2 z-30 flex justify-center items-center">
                 {/* <button className="bg-white p-2 text-accent font-kufam rounded-lg cursor-pointer relative z-30">
                     Touch with us
                 </button> */}

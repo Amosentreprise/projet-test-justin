@@ -16,7 +16,7 @@ const BestProperties = () => {
 
                 </div>
             </div>
-            <div className="w-[300px] h-[300px] p-20 rounded-full bg-[#EEC1AC] absolute bottom-0 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
+            <div className="w-[300px] h-[300px] p-20 rounded-full bg-accent absolute bottom-0 left-1/2 transform -translate-x-1/2 flex justify-center items-center">
                 {/* <button className="z-50  bg-accent text-white p-2 font-kufam rounded-lg cursor-pointer relative top-20 ">
                     Touch with us
                 </button> */}

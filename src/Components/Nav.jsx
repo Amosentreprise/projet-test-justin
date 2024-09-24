@@ -9,27 +9,27 @@ const Nav = () => {
         {
             id: 0,
             link: "/",
-            linkName: "Home",
+            linkName: "Accueil",
         },
         {
             id: 1,
-            link: "/about",
-            linkName: "About",
+            link: "/avendre",
+            linkName: "À Vendre",
         },
         {
             id: 2,
-            link: "/property",
-            linkName: "Proprieties",
+            link: "/alouer",
+            linkName: "À Louer",
         },
         {
             id: 3,
-            link: "/propertySingle",
-            linkName: "PropertySingle",
+            link: "/annonce",
+            linkName: "Déposer une Annonce",
         },
         {
             id: 4,
             link: "/login",
-            linkName: "Sign in",
+            linkName: "Se connecter",
         },
     ];
 
@@ -52,11 +52,11 @@ const Nav = () => {
     }, []);
 
     return (
-        <nav className="p-4 min-h-20 bg-accent-neutral w-[80%] mx-auto rounded-md flex justify-between items-center relative">
+        <nav className="p-4 min-h-20 bg-accent w-[80%] mx-auto rounded-md flex justify-between items-center relative">
             <div className="flex gap-2 items-center">
-                <img src={icon} alt="" className="w-16 h-10 object-cover" />
-                <span className="font-inter text-white font-bold lg:text-xl md:text-xl sm:text-sm">
-                    Pas2com
+               <a href="/"><img src={icon} alt="" className="w-16 h-10 object-cover" /></a>
+                <span className="font-inter text-white font-bold lg:text-sm md:text-sm sm:text-sm">
+                    Pas2com Immobilier
                 </span>
             </div>
             <ul className="lg:flex gap-5 items-center font-open sm:hidden md:hidden">
@@ -75,9 +75,10 @@ const Nav = () => {
                     </Link>
                 ))}
                 <li>
-                    <button className="border border-accent-orange hover:bg-transparent bg-accent-orange p-2 rounded-md text-white">
-                        Sign up
+                   <a href="/register"><button className="border border-accent-orange hover:bg-transparent bg-accent-orange p-2 rounded-md text-white">
+                        S'inscrire
                     </button>
+                    </a> 
                 </li>
             </ul>
             <button

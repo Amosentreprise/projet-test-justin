@@ -37,16 +37,16 @@ const About = () => {
             </div>
             <div className="sm:w-[90%] w-[80%] mx-auto py-11 space-y-3">
                 <div data-aos="fade-left" data-aos-duration="1000" className="w-full flex flex-wrap sm:justify-center md:justify-between lg:justify-between gap-4">
-                    <div className="bg-[#EEC1AC] sm:w-[90%] md:w-[40%] lg:w-[40%] min-h-[300px] p-5 flex  flex-col space-y-4 justify-center" key={data.id}>
+                    <div className="bg-accent-orange sm:w-[90%] md:w-[40%] lg:w-[40%] min-h-[300px] p-5 flex  flex-col space-y-4 justify-center" key={data.id}>
                                 <img src={about1} alt="" className=" w-40 h-32" />
                                 <h2 className=" text-accent text-xl font-bold">Budget Friendly</h2>
-                                <p className="text-amber-700 ">Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                <p className="text-white ">Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                     </div>
-                    <div className="bg-[#EEC1AC] sm:w-[90%] md:w-[40%] lg:w-[50%] min-h-[300px] p-5 flex gap-2 flex-wrap  justify-evenly items-center" key={data.id}>
+                    <div className="bg-accent-orange sm:w-[90%] md:w-[40%] lg:w-[50%] min-h-[300px] p-5 flex gap-2 flex-wrap  justify-evenly items-center" key={data.id}>
                                 <img src={about2} alt="" className=" w-40 h-32 " />
                             <div className=" max-w-[300px]">
                                 <h2 className=" text-accent text-xl font-bold">Property Insurance</h2>
-                                <p className="text-amber-700 ">Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                <p className="text-white ">Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                             </div>
                                 
                     </div>
@@ -55,10 +55,10 @@ const About = () => {
                 <div data-aos="fade-right" data-aos-duration="1000" className=" flex flex-wrap sm:justify-center md:justify-between lg:justify-between gap-4">
                     {
                       datas.map((data)=>(
-                        <div className="bg-[#EEC1AC] sm:w-[90%] md:w-[40%] lg:w-[30%] min-h-[300px] p-5 flex flex-col  space-y-4 justify-center" key={data.id}>
+                        <div className="bg-accent-orange sm:w-[90%] md:w-[40%] lg:w-[30%] min-h-[300px] p-5 flex flex-col  space-y-4 justify-center" key={data.id}>
                             <img src={data.image} alt="" className=" w-32 h-20 " />
                             <h2 className=" text-accent text-xl font-bold">{data.title}</h2>
-                            <p className="text-amber-700 ">Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                            <p className="text-white ">Distinctively re-engineer revolutionary meta-services and premium  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
                         </div>
                       ))
                     }

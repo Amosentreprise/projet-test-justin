@@ -5,6 +5,7 @@ import Property from './Views/Property/Property'
 import PropertySingle from './Views/PropertySingle/PropertySingle'
 import About from './Views/About/About'
 import Login from "./Views/Common/Login.jsx"
+import SignUp from './Views/Common/SignUp.jsx'
 
 
 
@@ -15,10 +16,11 @@ function App() {
     <div >
         <Routes>
            <Route path="/" element={<Home/>}/>
-           <Route path="/property" element={<Property/>}/>
-           <Route path="/propertySingle" element={<PropertySingle/>}/>
-           <Route path="/about" element={<About/>}/>
+           <Route path="/alouer" element={<Property/>}/>
+           <Route path="/annonce" element={<PropertySingle/>}/>
+           <Route path="/avendre" element={<About/>}/>
            <Route path="/login" element={<Login/>}/>
+           <Route path="/register" element={<SignUp/>}/>
         </Routes>
     </div>
     

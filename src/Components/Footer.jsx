@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import icon2 from "../assets/bg/Icon2.png"
 import icon1 from "../assets/bg/Icon1.png"
-import icon from "../assets/iconLogo.png"
+import icon from "../assets/logooriginal.png"
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsTelephoneFill } from "react-icons/bs";
 import { AiFillMail } from "react-icons/ai";
@@ -19,9 +19,9 @@ const Footer = () => {
              <div className="divide-y divide-primary  w-[90%] mx-auto border-t">
                     <div className="flex flex-wrap divide-x justify-between  relative z-40" >
                         <div className=" flex flex-col space-y-3 my-auto" >
-                          <div className="flex gap-2 items-end">
-                                <img src={icon} alt="" className="w-10 h-10"/>
-                                <span className=" font-inter text-accent font-bold text-xl ">ProperLand</span>
+                          <div className="flex gap-2 items-center">
+                               <a href="/" onClick={()=> localStorage.setItem('selectedOption', 0)}><img src={icon} alt="" className="w-20 h-20"/></a> 
+                                <span className=" font-inter text-accent font-bold text-xl ">Pas2com Immobilier</span>
                           </div>
                           <ul className=" flex flex-wrap gap-3 items-center">
                             <li><FaTwitter className=" text-2xl text-accent"/></li>

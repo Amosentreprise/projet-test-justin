@@ -84,7 +84,7 @@ const Customers = () => {
   }, [currentIndex, itemsToShow]);
 
   return (
-    <div className="min-h-screen bg-[#F3E8E2] p-14 flex items-center justify-center">
+    <div className="min-h-screen bg-primary p-14 flex items-center justify-center">
       <div className="w-full max-w-6xl">
         <div className="flex justify-between flex-wrap items-center mb-5">
           <h2 className="text-3xl font-bold font-open text-accent">What our Customers say about us</h2>
@@ -117,8 +117,8 @@ const Customers = () => {
                 className="flex-shrink-0 w-full p-6 "
                 style={{ width: `${100 / itemsToShow}%` }}
               >
-                <div className="bg-gradient-to-r from-[#FFF6F2] to-[#EEC1AC] rounded-r-[50px] rounded-tl-[40px] p-5 w-[60%] h-auto">
-                  <p className="text-amber-700">{customer.customerSay}</p>
+                <div className="bg-accent-orange rounded-r-[50px] rounded-tl-[40px] p-5 w-[60%] h-auto">
+                  <p className="text-white">{customer.customerSay}</p>
                 </div>
                 <div className="flex gap-3 items-center mt-3">
                   <div className="w-14 h-14">

@@ -12,7 +12,7 @@ const Banner = () => {
         AOS.init();
       }, [])
     return ( 
-        <div  className="min-h-screen bg-white overflow-hidden  w-full pt-4  font-open flex flex-col relative ">
+        <div  className="min-h-screen bg-white overflow-hidden w-full pt-4  font-open flex flex-col relative ">
             <img src={icon1} alt="" className=" absolute z-30 sm:w-[200px] md:w-[400px] lg:w-[500px] sm:h-[300px] md:h-[400px] lg:h-[500px] -bottom-10 left-0" />
             <img src={icon2} alt="" className=" absolute z-30 -top-10 -right-40 sm:w-[300px] md:w-[400px] lg:w-[400px] sm:h-[300px] md:h-[400px] lg:h-[500px]" />
                 <div className="relative z-50">
@@ -28,7 +28,7 @@ const Banner = () => {
                                         Live with your family</h1>
                                         <p className=" text-amber-700">Distinctively re-engineer revolutionary meta-services and premium architectures. Intrinsically incubate.</p>
                                       
-                                      <a href="/property" className="inline-block mt-4"><button className="bg-accent-orange hover:shadow-md text-white transition-all rounded-md flex items-center p-3 gap-2"><span className=" text-sm ">Explore Property</span> <span className=" text-white w-4 h-4 rounded-full bg-accent flex items-center justify-center"><AiOutlineArrowRight/></span></button></a>
+                                      <a href="/alouer" onClick={()=> localStorage.setItem('selectedOption', 2)} className="inline-block mt-4"><button className="bg-accent-orange hover:shadow-md text-white transition-all rounded-md flex items-center p-3 gap-2"><span className=" text-sm ">Explore Property</span> <span className=" text-white w-4 h-4 rounded-full bg-accent flex items-center justify-center"><AiOutlineArrowRight/></span></button></a>
                             </div>
                         </div>
                         <div className="sm:hidden md:hidden lg:block relative -right-40" >

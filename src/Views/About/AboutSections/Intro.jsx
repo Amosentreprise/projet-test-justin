@@ -70,12 +70,12 @@ const Intro = () => {
                 {
                     process.map((process)=> {
                         return(
-                            <div key={process.id} className=" p-6 w-[250px] h-auto bg-gradient-to-b from-[#FFF6F2] overflow-hidden to-[#EEC1AC] flex flex-col space-y-2">
+                            <div key={process.id} className=" p-6 w-[250px] h-auto bg-accent overflow-hidden  flex flex-col space-y-2">
                                 <div className=" w-14 h-14  p-2 rounded-full bg-accent-orange flex">
                                     <span className=" m-auto text-2xl text-white font-bold ">{process.processNum}</span>
                                 </div>
-                                <h2 className=" text-2xl font-bold text-accent">{process.processTitle}</h2>
-                                <p className=" text-amber-700">{process.processBody}.</p>
+                                <h2 className=" text-2xl font-bold text-accent-orange">{process.processTitle}</h2>
+                                <p className=" text-white">{process.processBody}.</p>
                             </div>
                         )
                     })
