@@ -54,7 +54,7 @@ const Nav = () => {
     return (
         <nav className="p-4 min-h-20 bg-accent w-[80%] mx-auto rounded-md flex justify-between items-center relative">
             <div className="flex gap-2 items-center">
-               <a href="/"><img src={icon} alt="" className="w-16 h-10 object-cover" /></a>
+               <a href="/" onClick={()=>localStorage.setItem('selectedOption', 0)}><img src={icon} alt="" className="w-16 h-10 object-cover" /></a>
                 <span className="font-inter text-white font-bold lg:text-sm md:text-sm sm:text-sm">
                     Pas2com Immobilier
                 </span>
